@@ -7,7 +7,6 @@ This repository contains the functional testing artifacts for the SauceDemo web 
 - **Test Plan:** Overall testing strategy and scope.
 - **Test Cases:** Detailed test cases for different functionalities.
 - **Bug Reports:** Logged defects found during testing.
-- **Screenshots:** Visual evidence from test executions (if any).
 
 ## Test Environment
 - Browser: Chrome (latest version)
