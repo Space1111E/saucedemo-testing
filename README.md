@@ -1,4 +1,3 @@
-"# QA Testing Project - saucedemo.com"
 
 # SauceDemo Functional Testing
 
