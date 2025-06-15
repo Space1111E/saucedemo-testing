@@ -1,30 +1,25 @@
-
 # SauceDemo Functional Testing
 
-## Përshkrimi
+## Overview
+This repository contains the functional testing artifacts for the SauceDemo web application (https://www.saucedemo.com). The tests cover key user flows such as login, adding products to the cart, and completing the checkout process.
 
-Ky projekt përmban testimet funksionale për aplikacionin SauceDemo (https://saucedemo.com), duke testuar hapat kryesorë si login, shtimi i produkteve në karrocë dhe përfundimi i blerjes.
+## Contents
+- **Test Plan:** Overall testing strategy and scope.
+- **Test Cases:** Detailed test cases for different functionalities.
+- **Bug Reports:** Logged defects found during testing.
+- **Screenshots:** Visual evidence from test executions (if any).
 
-## Përmbajtja
+## Test Environment
+- Browser: Chrome (latest version)
+- Testing Tools: Manual testing, Selenium IDE (optional)
+- URL Tested: https://www.saucedemo.com
 
-- Test Plan
-- Test Cases
-- Bug Report
+## How to Use
+1. Review the test plan for understanding the scope and objectives.
+2. Follow test cases step-by-step to execute tests.
+3. Record any bugs or unexpected behavior in the Bug Reports document.
 
-## Mjedisi i Testimit
+## Contact
+For any questions or feedback, please contact:
 
-- Shfletues: Chrome, Firefox
-- Sistemi Operativ: Windows, MacOS, Linux
-- Mjete: Selenium WebDriver (opsionale për automatizim)
-
-## Hapat e Testimit
-
-1. Testimi i login-it me kredenciale valide dhe jo valide
-2. Testimi i shtimit të produkteve në karrocë
-3. Testimi i përfundimit të blerjes (checkout)
-
-## Si të përdoret
-
-1. Klono këtë repository
-2. Hap dokumentat në folderin `docs` për detaje të testimit
-3. Shiko raportet e bugs në folderin `docs`
+Your Name — your.email@example.com
