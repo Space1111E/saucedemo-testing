@@ -1,9 +1,10 @@
+# Test Cases for SauceDemo Functional Testing
 
-# Test Cases për SauceDemo Functional Testing
+This document contains the key functional test cases executed for the SauceDemo website.
 
-| ID Testi | Emri i Testit                  | Hapat e Testimit                                                                                         | Rezultati i Parashikuar                                   | Rezultati Aktual | Statusi   |
-| -------- | ------------------------------ | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ---------------- | --------- |
-| TC01     | Login me kredenciale valide    | 1. Hyr ne faqen e login<br>2. Fut username/password valide<br>3. Kliko Login                             | Predoruesi hyn ne faqen kryesore                          |                  | Pass/Fail |
-| TC02     | Login me kredenciale jo valide | 1. Hyr ne faqen e login<br>2. Fut username/password jo valide<br>3. Kliko Login                          | Shfaqet mesazh gabimi “Username or password is incorrect” |                  | Pass/Fail |
-| TC03     | Shto produkt ne karroce        | 1. Login<br>2. Zgjidh produktin<br>3. Kliko “Add to cart”                                                | Produkti shfaqet ne karroce                               |                  | Pass/Fail |
-| TC04     | Kryej checkout pa gabime       | 1. Shto produkt ne karroce<br>2. Shko ne Checkout<br>3. Fut te dhenat e nevojshme<br>4. Perfundo blerjen | Blerja perfundon me sukses                                |                  | Pass/Fail |
+| Test ID | Test Name                    | Test Steps                                                                                     | Expected Result                                         | Actual Result | Status   | Remarks           |
+|---------|------------------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|---------------|----------|-------------------|
+| TC01    | Login with valid credentials  | 1. Go to login page<br>2. Enter valid username and password<br>3. Click Login                 | User is successfully logged into the homepage           |               | Pass/Fail|                   |
+| TC02    | Login with invalid credentials| 1. Go to login page<br>2. Enter invalid username and/or password<br>3. Click Login            | Error message "Username or password is incorrect" shown |               | Pass/Fail|                   |
+| TC03    | Add product to cart           | 1. Login<br>2. Select a product<br>3. Click "Add to cart"                                    | Product appears in the shopping cart                     |               | Pass/Fail|                   |
+| TC04    | Complete checkout successfully| 1. Add product to cart<br>2. Go to checkout<br>3. Enter required information<br>4. Complete purchase | Purchase completes successfully                        |               | Pass/Fail|                   
