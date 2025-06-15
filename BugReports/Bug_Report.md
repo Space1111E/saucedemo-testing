@@ -1,28 +1,37 @@
-# Bug Report për SauceDemo Functional Testing
+# Bug Report Template
 
-## Bug ID: BR01
+## Bug ID:
+BR01
 
-**Emri:** Login me kredenciale jo valide nuk jep mesazh gabimi  
-**Përshkrimi:** Kur futen kredenciale jo valide, nuk shfaqet asnjë mesazh gabimi dhe përdoruesi mbetet në faqen e login pa feedback.
+## Title:
+Login with invalid credentials does not display an error message
 
-### Hapat për ta riprodhuar:
+## Description:
+When entering invalid login credentials on SauceDemo, the application does not show any error message and remains on the login page without providing feedback to the user.
 
-1. Hyr në faqen e login
-2. Fut username/password jo valide
-3. Kliko Login
+## Steps to Reproduce:
+1. Navigate to https://www.saucedemo.com/  
+2. Enter an invalid username in the username field (e.g., "wrong_user")  
+3. Enter an invalid password in the password field (e.g., "wrong_pass")  
+4. Click the "Login" button  
 
-### Rezultati i pritur:
+## Expected Result:
+An error message saying "Username or password is incorrect" should be displayed below the login form.
 
-Mesazh gabimi "Username or password is incorrect"
+## Actual Result:
+No error message is shown; the user remains on the login page without any feedback.
 
-### Rezultati aktual:
-
-Nuk ka mesazh gabimi
-
-### Prioriteti:
-
+## Priority:
 High
 
-### Statusi:
-
+## Status:
 Open
+
+## Environment:
+- Application URL: https://www.saucedemo.com  
+- Browser & Version: Google Chrome 114.0  
+- Operating System: Windows 10  
+- Date Tested: 2025-06-15  
+
+## Additional Notes:
+No screenshots available at this time.
