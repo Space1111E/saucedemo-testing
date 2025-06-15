@@ -22,4 +22,4 @@ This repository contains the functional testing artifacts for the SauceDemo web 
 ## Contact
 For any questions or feedback, please contact:
 
-Your Name — your.email@example.com
+Your Name — elena.bregu25@gmail.com
