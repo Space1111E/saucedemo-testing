@@ -1,5 +1,3 @@
-"## Bug Reports\n\n- Bug 1: Product not removed from cart after clicking Remove"
-
 # Bug Report për SauceDemo Functional Testing
 
 ## Bug ID: BR01
